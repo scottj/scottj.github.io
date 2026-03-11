@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scott Johnson</title><link>https://scottj.info/oldblog/</link><description></description><atom:link href="http://127.0.0.1:8000/feeds/rss.xml" rel="self"></atom:link><lastBuildDate>Tue, 07 Apr 2015 09:22:00 -0500</lastBuildDate><item><title>Weather Links</title><link>https://scottj.info/oldblog/2015/04/weather-links/</link><description>&lt;p&gt;While cleaning out the server today, I stumbled upon this small collection of weather links that I had assembled in August, 2009. The links are mostly imagery and models for hurricane tracking.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.nrlmry.navy.mil/TC.html"&gt;NRL Monterey Marine Meteorology Tropical Cyclone Page&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ssd.noaa.gov/goes/"&gt;Geostationary Satellite Imagery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.goes.noaa.gov/"&gt;Geostationary Satellite Server&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.ssd.noaa.gov/PS/SATS/"&gt;Satellite Information and Links&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://radar.weather.gov/Conus/RadarImg/southplains.gif"&gt;US South Plains Radar Mosaic&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.esl.lsu.edu/quicklinks/hurricanes/"&gt;LSU Earth Scan Laboratory&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://moe.met.fsu.edu/tcgengifs/"&gt;FSU Experimental Forecast Models&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.stormjunkie.com/qcklnk.php"&gt;StormJunkie Links&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Tue, 07 Apr 2015 09:22:00 -0500</pubDate><guid>tag:scottj.info,2015-04-07:2015/04/weather-links/</guid><category>Weather</category></item><item><title>GPS Data Tools</title><link>https://scottj.info/oldblog/2015/04/gps-data-tools/</link><description>&lt;p&gt;&lt;img src="/oldblog/images/gpstrack.png" alt="screenshot of tonight's gps track" align="right" /&gt;&lt;/p&gt;
+&lt;p&gt;I use &lt;a href="http://runkeeper.com/"&gt;RunKeeper&lt;/a&gt; and my phone's GPS to track my outdoor activities that cover any sort of distance. Tonight I initiated the tracking about a fifth of a mile into my walk and wanted to edit the data afterward to include the complete walk. After uploading the data to RunKeeper, I downloaded it in &lt;a href="https://developers.google.com/kml/"&gt;KML&lt;/a&gt; form on my Mac. Next, I used the RunKeeper website to create and download another KML file containing the missing segment. &lt;a href="http://activityworkshop.net/software/gpsprune/"&gt;GpsPrune&lt;/a&gt; made it easy to merge the two KML files and export as one. Finally, I wanted to upload the data back to RunKeeper, but it only accepts &lt;a href="http://www.topografix.com/gpx.asp"&gt;GPX&lt;/a&gt; or &lt;a href="http://en.wikipedia.org/wiki/Training_Center_XML"&gt;TCX&lt;/a&gt; files when uploading. &lt;a href="http://kml2gpx.com/"&gt;KML2GPX&lt;/a&gt; saved the day with a quick conversion, and now my track is &lt;a href="http://runkeeper.com/user/ssjohnson/activity/542936281"&gt;live&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Mon, 06 Apr 2015 20:17:00 -0500</pubDate><guid>tag:scottj.info,2015-04-06:2015/04/gps-data-tools/</guid><category>GPS</category><category>KML</category><category>GPX</category></item><item><title>Microcontrollers</title><link>https://scottj.info/oldblog/2013/08/microcontrollers/</link><description>&lt;p&gt;I have been reading up on
+&lt;a href="http://en.wikipedia.org/wiki/Microcontroller"&gt;microcontrollers&lt;/a&gt;
+quite a bit lately. Following are the links I have found to be
+informative.&lt;/p&gt;
+&lt;h2&gt;Arduino&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://imall.iteadstudio.com/prototyping/kits/im120720007.html"&gt;Arduino Electronic Brick Starter Kit&lt;/a&gt; and &lt;a href="http://imall.iteadstudio.com/im121211001.html"&gt;Sensor Shield&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ardupilot.com"&gt;ArduPilot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://rayshobby.net/?page_id=160"&gt;OpenSprinkler&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://tiny-circuits.com/"&gt;Tiny Circuits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.martinmelchior.be/2013/07/use-tp-link-tl-wr703n-to-send-arduino.html"&gt;Use the TP-Link TL-WR703N to send Arduino sensor data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.instructables.com/id/YABBAS-Yet-Another-Bare-Bones-Arduino-on-Stripb/"&gt;YABBAS - Yet Another Bare Bones Arduino (on Stripboard)&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Raspberry Pi&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://makezine.com/2013/04/14/47-raspberry-pi-projects-to-inspire-your-next-build/"&gt;47 Raspberry Pi Projects to Inspire Your Next Build&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.stuffaboutcode.com/2013/07/raspberry-pi-car-cam-overlaid-with-obd.html"&gt;Raspberry Pi Car Cam overlaid with OBD data&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://wyolum.com/projects/alamode/"&gt;AlaMode&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://elinux.org/RPi_Expansion_Boards"&gt;RPi Expansion Boards&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Other Microcontrollers&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://mbed.org/blog/entry/mbed-enabled-Freescale-FRDM-KL25Z-board/"&gt;Freescale mbed&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.element14.com/community/thread/23575"&gt;Pi vs BeagleBone-Black&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/beagleboard"&gt;Beagleboard on github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Low Power&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://comoyo.github.io/blog/2013/08/09/How_to_efficiently_operate_the_Arduino_GSM_shield_with_a_battery_pack/"&gt;Efficiently operate the Arduino GSM shield with a battery pack&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.com/rocketscream/Low-Power"&gt;Low Power Library for Arduino&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://gammon.com.au/power"&gt;Power saving techniques for microprocessors&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://code.google.com/p/narcoleptic/"&gt;narcoleptic: a sleep library for Arduino&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Stores&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.adafruit.com/"&gt;Adafruit&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://gravitech.us/"&gt;Gravitech&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.newark.com/"&gt;Newark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.sparkfun.com/"&gt;Sparkfun&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Sun, 11 Aug 2013 16:18:00 -0500</pubDate><guid>tag:scottj.info,2013-08-11:2013/08/microcontrollers/</guid><category>Electronics</category></item><item><title>A Quote from Anthony Bourdain</title><link>https://scottj.info/oldblog/2013/06/a-quote-from-anthony-bourdain/</link><description>&lt;blockquote&gt;
+&lt;p&gt;“Why should you be excited about food trucks? Because they allow creative chefs […] without a lot of money to start creating and selling their stuff, introducing themselves to the world without having to gather up a million dollars or credulous partners. And they're affordable. They're democratic. And they are faster, better, and infinitely preferable to fast food like the king and the clown and the colonel.” —Anthony Bourdain&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Sun, 02 Jun 2013 00:04:00 -0500</pubDate><guid>tag:scottj.info,2013-06-02:2013/06/a-quote-from-anthony-bourdain/</guid><category>Dining</category><category>Quotes</category></item><item><title>A Quote from Jim Cramer</title><link>https://scottj.info/oldblog/2011/08/a-quote-from-jim-cramer/</link><description>&lt;blockquote&gt;
+&lt;p&gt;“Stocks with good dividends that you reinvest over time are the single best way to generate wealth in this country.” —&lt;a href="http://www.cnbc.com/id/15838459"&gt;Jim Cramer&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Fri, 12 Aug 2011 17:03:00 -0500</pubDate><guid>tag:scottj.info,2011-08-12:2011/08/a-quote-from-jim-cramer/</guid><category>Investing</category><category>Quotes</category></item><item><title>Music for Shuffle</title><link>https://scottj.info/oldblog/2011/06/music-for-shuffle/</link><description>&lt;iframe src="/oldblog//player.vimeo.com/video/18820540?title=0&amp;amp;byline=0&amp;amp;portrait=0&amp;amp;color=ffea02" width="480" height="300" frameborder="0"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="http://vimeo.com/18820540"&gt;Music for Shuffle #01&lt;/a&gt; from &lt;a href="http://vimeo.com/user244531"&gt;Matt Brown&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Read all about it &lt;a href="http://www.irvinebrown.com/?p=538"&gt;here&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Tue, 28 Jun 2011 12:36:00 -0500</pubDate><guid>tag:scottj.info,2011-06-28:2011/06/music-for-shuffle/</guid><category>Music</category></item><item><title>Snow</title><link>https://scottj.info/oldblog/2011/03/snow/</link><description>&lt;p&gt;&lt;img alt="charles" src="/oldblog//68.media.tumblr.com/tumblr_letbfzF3ux1qzbx5bo1_500.gif" /&gt;
+via &lt;a href="http://netherland.tumblr.com/post/2684472085"&gt;Netherland&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Tue, 22 Mar 2011 21:00:00 -0500</pubDate><guid>tag:scottj.info,2011-03-22:2011/03/snow/</guid><category>Pics</category></item><item><title>Side Effects</title><link>https://scottj.info/oldblog/2010/11/side-effects/</link><description>&lt;blockquote&gt;
+&lt;p&gt;“I love churches, and also the music of J.S. Bach, and many other side-effects of the experience of faith, even though that experience is foreign to me; just can’t get around certain habits of thought involving reproducible evidence and Occam’s razor.” —&lt;a href="http://www.tbray.org/ongoing/When/201x/2010/11/09/Cerro-San-Cristobal"&gt;Tim Bray&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Fri, 12 Nov 2010 22:39:00 -0600</pubDate><guid>tag:scottj.info,2010-11-12:2010/11/side-effects/</guid><category>Quotes</category></item><item><title>Sean Lennon at Gypsy Tea Room</title><link>https://scottj.info/oldblog/2010/10/sean-lennon-at-gypsy-tea-room/</link><description>&lt;p&gt;&lt;img src="/oldblog/images/2010/10/seanlennon.png" alt="Sean Lennon ticket" align=right /&gt;
+I just stumbled across the above image in the home office today. That's the ticket to the Sean Lennon show at Gypsy Tea Room. I think it was the last show at that classic venue—or at least one of the last few shows. We left early because Enzo's &lt;em&gt;in utero&lt;/em&gt; fondness for music made his mom feel ill.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Mon, 18 Oct 2010 18:56:00 -0500</pubDate><guid>tag:scottj.info,2010-10-18:2010/10/sean-lennon-at-gypsy-tea-room/</guid><category>Dallas</category><category>Music</category></item><item><title>Full Manual Photography</title><link>https://scottj.info/oldblog/2009/04/full-manual-photography/</link><description>&lt;p&gt;Some links I have collected recently on the topic of full manual
+photography. No autofocus or light meters here.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.blackcatphotoproducts.com/guide.html"&gt;BLACK CAT Extended Range Exposure Guide&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://squit.co.uk/photo/exposurecalc.html"&gt;Andrew Lawn's Exposure Calculator&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.tomchuk.com/rf_hfd/"&gt;Human Rangefinder Card Generator&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Sun, 12 Apr 2009 10:25:00 -0500</pubDate><guid>tag:scottj.info,2009-04-12:2009/04/full-manual-photography/</guid><category>Photography</category></item><item><title>Quick Photo Links</title><link>https://scottj.info/oldblog/2009/02/quick-photo-links/</link><description>&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.williamsphotographic.com/yashica.html"&gt;The New Yashica TLR FAQ&lt;/a&gt;: Yashica TLRs seem to be a popular choice for getting into medium format photography, and this seems like a good breakdown of the various models.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.hasselbladhistorical.eu/"&gt;Hasselblad Historical&lt;/a&gt;: Hasselblad cameras are known as some of the better medium format cameras. This site has more information about them than any one person could possibly need.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://figitalrevolution.com/about/our-fearless-leader/color-film-chart/"&gt;Color Film Chart&lt;/a&gt;: A brief summary of the properties of various color films.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://reallyrightstuff.com/home.html"&gt;Really Right Stuff&lt;/a&gt;: Tripods, Ball Heads, and Panorama Gear.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.fredparker.com/ultexp1.htm"&gt;The Ultimate Exposure Computer&lt;/a&gt;: An invaluable resource when using cameras without meters.&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.robert-barrett.com/photo/exposure_calculator.html"&gt;Exposure Calculator&lt;/a&gt;: A quick, simple tool for exposure calculations.&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Tue, 24 Feb 2009 12:30:00 -0600</pubDate><guid>tag:scottj.info,2009-02-24:2009/02/quick-photo-links/</guid><category>Photography</category></item><item><title>Ansco Pix Panorama</title><link>https://scottj.info/oldblog/2009/02/ansco-pix-panorama/</link><description>&lt;div style="float: right; margin-left: 10px; margin-bottom: 10px;text-align: center;"&gt;
+&lt;a href="http://www.flickr.com/photos/squeakymarmot/429981312/"&gt;&lt;img src="http://farm1.static.flickr.com/152/429981312_fa60e03e4a_m.jpg" alt="Ansco Pix Panorama"&gt;&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Lately I have been spending less time gazing at digital cameras and the
+resulting pictures and instead have been more interested in the analog
+counterparts. In my hours of browsing through flickr, I continuously
+notice that a lot of people are creating beautiful images with toy
+cameras. Last night, I remembered that several years ago, I was given
+the camera pictured here. It's an Ansco Pix Panorama. It's 100% plastic
+and is completely fixed — fixed focal length, fixed focus, fixed shutter
+speed, fixed aperture. There is no way to make any sort of adjustment
+other than the placement of the camera.&lt;/p&gt;
+&lt;p&gt;Here are the specs:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;28mm lens&lt;/li&gt;
+&lt;li&gt;fixed focus&lt;/li&gt;
+&lt;li&gt;1/125&lt;/li&gt;
+&lt;li&gt;f/11&lt;/li&gt;
+&lt;li&gt;35mm film&lt;/li&gt;
+&lt;li&gt;13x36mm panorama mask&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This camera was new when I received it, and I think I have only run one
+roll of film through it since. I just wasn't that interested in it when
+I received it. Things are different today. I'm hoping to grab a roll of
+film on the way home from work today to try it out.&lt;/p&gt;
+&lt;p&gt;Some Ansco Pix Panorama photos on flickr:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.flickr.com/photos/r2blue/sets/198212/"&gt;Ansco Pix Panorama&lt;/a&gt; by &lt;em&gt;That was my foot.&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.flickr.com/photos/escapo/sets/72057594056566296/"&gt;Ansco Pix Panorama&lt;/a&gt; by &lt;em&gt;escapo&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.flickr.com/photos/whenigodeaf/sets/72157608114207862/"&gt;Ansco Pix Panorama - flipped lens&lt;/a&gt; by &lt;em&gt;QsySue&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.flickr.com/photos/meyorlight/sets/72157603287766930/"&gt;ansco pix panorama&lt;/a&gt; by &lt;em&gt;mey0r&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.flickr.com/photos/skillshills/sets/72157602172641326/"&gt;Ansco Pix Panorama&lt;/a&gt; by &lt;em&gt;Alex Hills&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Wed, 11 Feb 2009 14:29:00 -0600</pubDate><guid>tag:scottj.info,2009-02-11:2009/02/ansco-pix-panorama/</guid><category>Photography</category></item><item><title>Untrusted Twitter</title><link>https://scottj.info/oldblog/2009/01/untrusted-twitter/</link><description>&lt;p&gt;&lt;img src="/oldblog/wp-content/uploads/2009/01/p-480-320-5d0913f6-0704-4a90-b629-112d557663dc.jpeg" align=right alt="untrusted server certificate" /&gt;
+Why is Twitter's SSL certificate not trusted by the iPhone? Because of this, I can't log in via Safari. Sure, Tweetie has eliminated my need for logging in this way, but I'm still a bit surprised that this hasn't been fixed.
+&lt;br clear="all" /&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Wed, 07 Jan 2009 13:13:00 -0600</pubDate><guid>tag:scottj.info,2009-01-07:2009/01/untrusted-twitter/</guid><category>Web</category></item><item><title>The Virtues of the Flip</title><link>https://scottj.info/oldblog/2008/12/the-virtues-of-the-flip/</link><description>&lt;p&gt;An entertaining series of videos from some folks who are very excited about their new &lt;a href="http://www.theflip.com/"&gt;Flip&lt;/a&gt;s.&lt;/p&gt;
+&lt;p&gt;&lt;object width="480" height="362"&gt;&lt;param name="allowfullscreen" value="true" /&gt;&lt;param name="allowscriptaccess" value="always" /&gt;&lt;param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=1841559&amp;amp;server=vimeo.com&amp;amp;show_title=1&amp;amp;show_byline=1&amp;amp;show_portrait=0&amp;amp;color=00adef&amp;amp;fullscreen=1" /&gt;&lt;embed src="http://vimeo.com/moogaloop.swf?clip_id=1841559&amp;amp;server=vimeo.com&amp;amp;show_title=1&amp;amp;show_byline=1&amp;amp;show_portrait=0&amp;amp;color=00adef&amp;amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="480" height="362"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+&lt;p&gt;&lt;object width="480" height="362"&gt;&lt;param name="allowfullscreen" value="true" /&gt;&lt;param name="allowscriptaccess" value="always" /&gt;&lt;param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=1873215&amp;amp;server=vimeo.com&amp;amp;show_title=1&amp;amp;show_byline=1&amp;amp;show_portrait=0&amp;amp;color=00adef&amp;amp;fullscreen=1" /&gt;&lt;embed src="http://vimeo.com/moogaloop.swf?clip_id=1873215&amp;amp;server=vimeo.com&amp;amp;show_title=1&amp;amp;show_byline=1&amp;amp;show_portrait=0&amp;amp;color=00adef&amp;amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="480" height="362"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+&lt;p&gt;&lt;object width="480" height="362"&gt;&lt;param name="allowfullscreen" value="true" /&gt;&lt;param name="allowscriptaccess" value="always" /&gt;&lt;param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=1878580&amp;amp;server=vimeo.com&amp;amp;show_title=1&amp;amp;show_byline=1&amp;amp;show_portrait=0&amp;amp;color=00adef&amp;amp;fullscreen=1" /&gt;&lt;embed src="http://vimeo.com/moogaloop.swf?clip_id=1878580&amp;amp;server=vimeo.com&amp;amp;show_title=1&amp;amp;show_byline=1&amp;amp;show_portrait=0&amp;amp;color=00adef&amp;amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="480" height="362"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;
+&lt;p&gt;&lt;object width="480" height="362"&gt;&lt;param name="allowfullscreen" value="true" /&gt;&lt;param name="allowscriptaccess" value="always" /&gt;&lt;param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=1894865&amp;amp;server=vimeo.com&amp;amp;show_title=1&amp;amp;show_byline=1&amp;amp;show_portrait=0&amp;amp;color=00adef&amp;amp;fullscreen=1" /&gt;&lt;embed src="http://vimeo.com/moogaloop.swf?clip_id=1894865&amp;amp;server=vimeo.com&amp;amp;show_title=1&amp;amp;show_byline=1&amp;amp;show_portrait=0&amp;amp;color=00adef&amp;amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="480" height="362"&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Fri, 12 Dec 2008 13:43:00 -0600</pubDate><guid>tag:scottj.info,2008-12-12:2008/12/the-virtues-of-the-flip/</guid><category>Humor</category></item><item><title>Sharpe Residence at Lucky Dog Ranch</title><link>https://scottj.info/oldblog/2008/11/sharpe-residence-at-lucky-dog-ranch/</link><description>&lt;p&gt;&lt;img src="/oldblog/images/2008/11/sharpe.jpg" alt="photo of the Sharpe Residence" align=right /&gt;
+I'm really liking the &lt;a href="http://www.spfa.com/RESsharpeDESCRIPTION.htm"&gt;Sharpe Residence&lt;/a&gt;. I first spotted it in the LA Times feature &lt;a href="http://www.latimes.com/features/home/la-hm-hometours,0,5668516.gallery"&gt;Homes of The Times&lt;/a&gt; listed as &lt;a href="http://www.latimes.com/features/home/la-hm.0124.sharpe-pg,0,1057811.photogallery"&gt;A 21st century ranch house in Ventura County&lt;/a&gt;. I find myself drawn to the way this house combines the open, free-spirited nature of a rural setting with elements of modern architecture and design. &lt;/p&gt;
+&lt;p&gt;Nestled along a hillside approximately &lt;a href="http://maps.google.com/maps?f=d&amp;amp;saddr=Los+Angeles&amp;amp;daddr=34.3204,+-118.9952&amp;amp;hl=en&amp;amp;geocode=&amp;amp;mra=ls&amp;amp;sll=34.197037,-118.565826&amp;amp;sspn=0.614496,1.235962&amp;amp;ie=UTF8≪=34.19363,-118.644104&amp;amp;spn=0.614521,1.757813&amp;amp;t=h&amp;amp;z=10"&gt;60 miles from LA&lt;/a&gt;, the home seems like a great weekend retreat. The 10,000 square foot home sits on 40 acres of lemon groves. The home's two wings form a right angle, and together with the hills at the rear of the property they create an enclosed private space. In fact, the entire house seems quite isolated due to the abundance of trees on the property, as seen on the satellite image below.&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Satellite photo of Sharpe Residence" src="http://maps.google.com/staticmap?center=34.3197,-118.9948&amp;amp;zoom=17&amp;amp;size=480x520&amp;amp;zoom=17&amp;amp;maptype=satellite&amp;amp;key=ABQIAAAAXYnsz68YavJbH0LpvRCnjBSgpsEiF8ez13sWjpqbH0XE8GDjCBRJRm2_qfYRnQHyg2VF6bXHWyXWsA" /&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Sat, 08 Nov 2008 11:42:00 -0600</pubDate><guid>tag:scottj.info,2008-11-08:2008/11/sharpe-residence-at-lucky-dog-ranch/</guid><category>Architecture</category></item><item><title>Facts</title><link>https://scottj.info/oldblog/2008/10/facts/</link><description>&lt;p&gt;&lt;a href="http://daringfireball.net/linked/2008/10/16/bulls-bears"&gt;John Gruber&lt;/a&gt;:
+"Facts continue to hold a liberal bias."&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Thu, 16 Oct 2008 13:17:00 -0500</pubDate><guid>tag:scottj.info,2008-10-16:2008/10/facts/</guid><category>Economy</category><category>Politics</category></item><item><title>Elections in Canada</title><link>https://scottj.info/oldblog/2008/10/elections-in-canada/</link><description>&lt;p&gt;&lt;a href="http://twitter.com/timbray/statuses/959284422"&gt;&lt;img src="/oldblog/images/2008/10/ca-election.png" alt="Tweet on Elections in Canada" /&gt;&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Tue, 14 Oct 2008 12:43:00 -0500</pubDate><guid>tag:scottj.info,2008-10-14:2008/10/elections-in-canada/</guid><category>Politics</category></item><item><title>Palin's Experience</title><link>https://scottj.info/oldblog/2008/09/palins-experience/</link><description>&lt;p&gt;If you do nothing else today, watch &lt;a href="http://blip.tv/file/1287551"&gt;this video presentation&lt;/a&gt; by Lawrence Lessig. It features an exhaustive (yet fairly brief) "comparison of Governor Palin's experience as compared with every other Vice President in U.S. history."&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Wed, 24 Sep 2008 13:04:00 -0500</pubDate><guid>tag:scottj.info,2008-09-24:2008/09/palins-experience/</guid><category>Politics</category></item><item><title>I Miss Positively Pomegranate</title><link>https://scottj.info/oldblog/2008/09/i-miss-positively-pomegranate/</link><description>&lt;p&gt;&lt;img src="http://farm4.static.flickr.com/3161/2725124459_c830c157be.jpg" alt="Positively Pomegranate" align=right /&gt;&lt;/p&gt;
+&lt;p&gt;Julie bought me a pack of Orbit Positively Pomegranate Gum a while back, probably around May or June of this year. At first, it was just like any other new flavor of gum. I tried it and liked it, but it was nothing special. But by the time I got to the end of the pack, I wanted more.&lt;/p&gt;
+&lt;p&gt;Fast forward to September 1, which is approximately when I remembered and began to miss that pack of Positively Pomegranate. I have been searching every store I have visited since that day for my favorite flavor of Orbit. And each time I search, I leave empty-handed. Finally, last Friday, Julie reminded me that Positively Pomegranate was a Limited Edition. And today I finally googled it — unfortunately.&lt;/p&gt;
+&lt;p&gt;I haven't found any firm dates yet, but the consensus is that Positively Pomegranate is no more. Of the few people who enjoyed it, none can find it in their local stores. I searched an online candy store, and &lt;a href="http://www.candydirect.com/gums/gums14.html"&gt;they don't have it&lt;/a&gt; either. I'm thinking that I will never taste a piece of this wonderful gum again, but if you happen to locate some, please &lt;a href="https://scottj.info/oldblog/contact/"&gt;drop a line&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Fri, 19 Sep 2008 13:32:00 -0500</pubDate><guid>tag:scottj.info,2008-09-19:2008/09/i-miss-positively-pomegranate/</guid><category>Snacks</category></item><item><title>Ike: Life Threatening Inundation Likely!</title><link>https://scottj.info/oldblog/2008/09/ike-life-threatening-inundation-likely/</link><description>&lt;p&gt;&lt;img src="/oldblog/images/noaa.png" alt="NOAA Logo" align=right /&gt;
+That's &lt;a href="http://forecast.weather.gov/wwamap/wwatxtget.php?cwa=usa&amp;amp;wwa=Hurricane%20Warning"&gt;the word from the National Weather Service&lt;/a&gt; tonight. I don't believe I have ever seen a warning so dire. Click the link above if you want to read the entire &lt;em&gt;Hurricane Warning&lt;/em&gt;. Here's the good part:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;LIFE THREATENING INUNDATION LIKELY!&lt;br/&gt;&lt;br/&gt;
+ALL NEIGHBORHOODS ... AND POSSIBLY ENTIRE COASTAL COMMUNITIES ... WILL
+BE INUNDATED DURING THE PERIOD OF PEAK STORM TIDE. PERSONS NOT HEEDING
+EVACUATION ORDERS IN SINGLE FAMILY ONE OR TWO STORY HOMES WILL FACE
+CERTAIN DEATH. MANY RESIDENCES OF AVERAGE CONSTRUCTION DIRECTLY ON THE
+COAST WILL BE DESTROYED. WIDESPREAD AND DEVASTATING PERSONAL PROPERTY
+DAMAGE IS LIKELY ELSEWHERE. VEHICLES LEFT BEHIND WILL LIKELY BE SWEPT
+AWAY. NUMEROUS ROADS WILL BE SWAMPED ... SOME MAY BE WASHED AWAY BY THE
+WATER. ENTIRE FLOOD PRONE COASTAL COMMUNITIES WILL BE CUTOFF. WATER
+LEVELS MAY EXCEED 9 FEET FOR MORE THAN A MILE INLAND. COASTAL RESIDENTS
+IN MULTI-STORY FACILITIES RISK BEING CUTOFF. CONDITIONS WILL BE WORSENED
+BY BATTERING WAVES. SUCH WAVES WILL EXACERBATE PROPERTY DAMAGE ... WITH
+MASSIVE DESTRUCTION OF HOMES ... INCLUDING THOSE OF BLOCK CONSTRUCTION.
+DAMAGE FROM BEACH EROSION COULD TAKE YEARS TO REPAIR.&lt;/code&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Thu, 11 Sep 2008 20:03:00 -0500</pubDate><guid>tag:scottj.info,2008-09-11:2008/09/ike-life-threatening-inundation-likely/</guid><category>Nature</category></item><item><title>TTAC: Jonny Lieberman Only</title><link>https://scottj.info/oldblog/2008/09/ttac-jonny-lieberman-only/</link><description>&lt;p&gt;I get tired of digging through the chaff at &lt;a href="http://www.thetruthaboutcars.com/"&gt;The Truth About Cars&lt;/a&gt; sometimes. It takes a small bit of effort to determine the author of an article from my comfortable Google Reader interface. It's not &lt;em&gt;that&lt;/em&gt; big of a deal, but sometimes there's so much crap that I end up missing a good &lt;a href="http://jalopnik.com/tag/jonny-lieberman/"&gt;Loverman&lt;/a&gt; post. I finally got fed up this afternoon and took a few seconds to apply Yahoo Pipes to the problem. The result is &lt;a href="http://pipes.yahoo.com/pipes/pipe.run?_id=XhnZCnJ73RGeN50HQBJ3AQ&amp;amp;_render=rss"&gt;an RSS feed of only Jonny's posts&lt;/a&gt;. It's not a total replacement for my subscription to the full TTAC feed, but I certainly won't be missing any more of the all-important Loverman posts.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Fri, 05 Sep 2008 11:55:00 -0500</pubDate><guid>tag:scottj.info,2008-09-05:2008/09/ttac-jonny-lieberman-only/</guid><category>Cars</category><category>Web</category></item><item><title>Google Chrome: Aw, Snap!</title><link>https://scottj.info/oldblog/2008/09/google-chrome-aw-snap/</link><description>&lt;p&gt;&lt;img src="/oldblog/images/2008/09/awsnap-t.png" alt="Aw, Snap!" align=right /&gt;
+Google Chrome won't run properly on my work PC. Whenever it loads, I get the sad folder saying, "Aw, Snap!" No matter whether I'm trying to access a local html file, a local image, or a remote site, I always get the same result.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; It turns out that there's &lt;a href="http://code.google.com/p/chromium/issues/detail?id=38"&gt;a conflict&lt;/a&gt; between Chrome and &lt;a href="https://forums.symantec.com/syment/board/message?board.id=endpoint_protection11&amp;amp;view=by_date_ascending&amp;amp;message.id=15855#M15855"&gt;Symantec Endpoint Protection&lt;/a&gt;. Adding &lt;code&gt;--no-sandbox&lt;/code&gt; to the command line bypasses the bug. It's not a great solution, but it's got chrome working on my work PC for now.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update 2:&lt;/strong&gt; Here's &lt;a href="http://service1.symantec.com/SUPPORT/ent-security.nsf/docid/2008090310121448"&gt;Symantec's current official response&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Wed, 03 Sep 2008 13:31:00 -0500</pubDate><guid>tag:scottj.info,2008-09-03:2008/09/google-chrome-aw-snap/</guid><category>Google</category><category>Web</category></item><item><title>Isabel</title><link>https://scottj.info/oldblog/2008/08/isabel/</link><description>&lt;p&gt;&lt;img src="http://lh4.ggpht.com/jchadwick/RWPSDaWbABI/AAAAAAAAAPY/UJPDQm32jj8/s400/_MG_0630.JPG" alt="Isabel" align=right /&gt;
+I was digging through Julie's Picasa Web albums tonight and found this great shot of Isabel.
+&lt;br clear=all&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Tue, 26 Aug 2008 22:56:00 -0500</pubDate><guid>tag:scottj.info,2008-08-26:2008/08/isabel/</guid><category>Pics</category></item><item><title>Brilliant</title><link>https://scottj.info/oldblog/2008/08/brilliant/</link><description>&lt;p&gt;&lt;img src="/oldblog/images/2008/08/cnn-flash.png" alt="CNN's Flash Player error message" align=right /&gt;
+CNN's Flash support isn't quite future proof. Actually, in light of the current Flash 10 Beta, it's not present proof. I'm running the new Flash player because &lt;a href="http://support.mozilla.com/tiki-view_forum_thread.php?comments_parentId=88737&amp;amp;forumId=1"&gt;Flash 9 won't play videos in Firefox 3&lt;/a&gt; for me. Flash 10 Beta restores my ability to pull down as much video off of the intertubes as I desire, except for the video on CNN.com. The error message says "8 or higher", so you would think that 10 would work, right? Please, CNN, let me watch your videos.
+&lt;br clear=all&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Wed, 20 Aug 2008 10:14:00 -0500</pubDate><guid>tag:scottj.info,2008-08-20:2008/08/brilliant/</guid><category>Rants</category><category>Web</category></item><item><title>Firefox Extensions v3</title><link>https://scottj.info/oldblog/2008/06/firefox-extensions-v3/</link><description>&lt;p&gt;&lt;img src="/oldblog/images/firefox-extensions-3-t.png" alt="Firefox Add-ons Box" align=right /&gt;
+It is time once again to share my list of Firefox extensions that I use on a daily basis. All extensions on the list have been updated for Firefox 3.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/1865"&gt;Adblock Plus 0.7.5.4&lt;/a&gt; - this is a longtime favorite. Its features rarely change, but there are continual bugfixes and compatibility updates. The heavy lifting is done by &lt;a href="http://easylist.adblockplus.org/easyelement+easylist.txt"&gt;downloadable filter sets&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/6076"&gt;Better Gmail 2 0.5&lt;/a&gt; - provides keyboard macros that I can't live without. Also features a ton of other stuff that I never use.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/6891"&gt;Color Management 0.2&lt;/a&gt; - enables FF3's new &lt;a href="http://ejohn.org/blog/color-profiles/"&gt;support for color profiles&lt;/a&gt;. Currently disabled because the color profile for my Dell monitor at work is broken, and I can't get any answers on how to build a new profile.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/748"&gt;Greasemonkey 0.7.20080121.0&lt;/a&gt; - this one is mostly here to help me &lt;a href="http://googlesystem.blogspot.com/2008/04/download-youtube-videos-as-mp4-files.html"&gt;download videos from YouTube&lt;/a&gt;, but it has other small uses as well. I'm finding lately that Stylish handles most of the tasks for which I originally used Greasemonkey.&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://forums.mozillazine.org/viewtopic.php?t=613565"&gt;Personal Menu 4.0rc2.3&lt;/a&gt; - it's been a while since this one has been updated on mozilla.org, but the 4.0 release candidates are rock-solid on FF3. This extension allows me to reduce the menu bar functionality to a single button on my navigation toolbar.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/321"&gt;SearchStatus 1.25&lt;/a&gt; - shows Google PageRank, Alexa rank, and Compete rank in my status bar. This is unobtrusive and miles ahead of the old practice of loading three different toolbars just to see one number from each.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/4072"&gt;Smart Bookmarks Bar 1.4.1&lt;/a&gt; - unclutters my toolbars. With this extension, I am able to move my bookmarks to my navigation toolbar. Vertical screen real estate is maximized by only having one toolbar visible.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/2108"&gt;Stylish 0.5.7&lt;/a&gt; - an essential extension for those times when there's a visual problem with a site that &lt;a href="http://userstyles.org/styles/5657"&gt;you want to fix&lt;/a&gt;. Or when you want to &lt;a href="http://userstyles.org/styles/2318"&gt;pimp Google Reader&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/125"&gt;SwitchProxy Tool 1.4.1&lt;/a&gt; - used for switching between the various proxy servers at work.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/4346"&gt;Tab Counter 1.3&lt;/a&gt; - shows a simple count of the number of tabs open at the far right side of the navigation toolbar.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://addons.mozilla.org/en-US/firefox/addon/60"&gt;Web Developer 1.1.6&lt;/a&gt; - an essential tool when digging into a site to figure out how it works.&lt;/p&gt;
+&lt;p&gt;You may have noticed that the add-ons box in the picture looks a bit different. For that, I thank the &lt;a href="http://userstyles.org/styles/5904"&gt;Firefox 2+3 Slim Extension List&lt;/a&gt; style running in Stylish.&lt;/p&gt;
+&lt;p&gt;In following with the slimmed-down, optimized approach of Firefox 3, my extension list has been slimmed down as well. There are fewer extensions than &lt;a href="https://scottj.info/oldblog/2007/10/firefox-extensions-2/"&gt;last time&lt;/a&gt;. The extensions that remain form a solid core that provides a more productive experience for me on a daily basis.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Thu, 05 Jun 2008 00:18:00 -0500</pubDate><guid>tag:scottj.info,2008-06-05:2008/06/firefox-extensions-v3/</guid><category>Firefox</category></item><item><title>A Quote from Bruce Schneier</title><link>https://scottj.info/oldblog/2008/05/a-quote-from-bruce-schneier/</link><description>&lt;blockquote&gt;
+&lt;p&gt;“[…] trying to make digital files uncopyable is like trying to make water not wet.” —&lt;a href="http://www.schneier.com/essay-126.html"&gt;Bruce Schneier&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Tue, 06 May 2008 13:04:00 -0500</pubDate><guid>tag:scottj.info,2008-05-06:2008/05/a-quote-from-bruce-schneier/</guid><category>DRM</category><category>Quotes</category></item><item><title>Pace Setter Landscapes</title><link>https://scottj.info/oldblog/2008/05/pace-setter-landscapes/</link><description>&lt;p&gt;&lt;img src="/oldblog/images/pace-setter.png" alt="Pace Setter business card" align=right /&gt;
+If you live or work in the Dallas-Fort
+Worth area and are considering the services of &lt;strong&gt;Pace Setter
+Landscapes&lt;/strong&gt; and its apparent owner, Bryan Thayne Folkman, this post is
+for you.&lt;/p&gt;
+&lt;p&gt;Late last summer, upon recommendation from a friend of a friend, we
+hired Pace Setter to clean up some debris in our backyard, till up the
+underlying soil, and lay down some fresh Bermuda sod. My wife negotiated
+a deal that was favorable to both parties, and the work was done one day
+while we were at work.&lt;/p&gt;
+&lt;p&gt;I was excited to come home to a yard full of sod. It was a huge
+improvement over the wasteland that had once occupied the same space. I
+began the typical routine for new sod: watering, watering, and more
+watering.&lt;/p&gt;
+&lt;p&gt;The sod appeared to be doing quite well in some places and horribly in
+others. It was mostly around the edges of the lawn that it was having
+problems, and I noticed in those areas that it seemed to be almost
+floating above the dirt. In fact, there were some spaces where there was
+air between sod and dirt. So I began stomping on these spots, trying to
+work the sod down to the dirt's level.&lt;/p&gt;
+&lt;p&gt;After a few weeks, while walking around on the lawn, I accidently kicked
+up a loose piece of sod. Underneath, I discovered a big part of the
+problem. Pace Setter had neglected to remove the black &lt;a href="http://www.typarlandscape.com/"&gt;landscape fabric&lt;/a&gt; that had been covering the
+dirt—fabric which we had specifically asked them to remove. This was a
+bit of an annoyance, but I wasn't upset enough to begin complaining
+because the new grass seemed as though it was improving.&lt;/p&gt;
+&lt;p&gt;So then a few weeks later, while out mowing the grass that hadn't died
+off, I stepped on a nail. This nail was attached to a large piece of
+wood and was just below a piece of landscape fabric, which was in turn
+just below the sod. At this point, I was furious. Pace Setter had
+obviously taken advantage of the fact that I was not there to see
+whether they removed any debris from my lawn before laying down the sod.&lt;/p&gt;
+&lt;p&gt;After I went and paid to get my Tetanus shot, we began calling Mr.
+Folkman. It took a couple of tries before we reached him. When we spoke
+with him, he was quick to inform us that he was not actually present
+when the work was done and that he was surprised that his workers had
+done this. He stated that he had never had a problem like this before.
+He apologized and was supposed to talk to his workers and call us back
+ASAP.&lt;/p&gt;
+&lt;p&gt;That was about seven months ago. We haven't heard a word from Bryan
+Folkman since, and unless he reads this post, I don't expect him to
+call.&lt;/p&gt;
+&lt;p&gt;So there's my story of our encounter with this company. Caveat emptor.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Sun, 04 May 2008 12:50:00 -0500</pubDate><guid>tag:scottj.info,2008-05-04:2008/05/pace-setter-landscapes/</guid><category>Dallas</category><category>Landscaping</category></item><item><title>Stick Together</title><link>https://scottj.info/oldblog/2008/04/stick-together/</link><description>&lt;p&gt;&lt;img src="http://farm3.static.flickr.com/2310/2380784574_e00a4760d1_o.jpg" alt="stick together" align=right /&gt;
+In support of &lt;a href="http://www.engadget.com/2008/04/01/painting-the-town-magenta/"&gt;Engadget Mobile&lt;/a&gt;'s
+&lt;a href="http://www.ryanblock.com/2008/04/going-magenta/"&gt;campaign&lt;/a&gt; against
+evil.&lt;/p&gt;
+&lt;p&gt;[&lt;a href="http://www.veronicabelmont.com/2008/04/ed008c-solidarity/"&gt;via&lt;/a&gt;]
+&lt;br clear=all&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Sat, 05 Apr 2008 16:48:00 -0500</pubDate><guid>tag:scottj.info,2008-04-05:2008/04/stick-together/</guid><category>Mobile</category><category>Web</category></item><item><title>Google Static Maps</title><link>https://scottj.info/oldblog/2008/02/google-static-maps/</link><description>&lt;p&gt;&lt;img src="http://maps.google.com/staticmap?center=32.785,-96.797&amp;markers=32.797155,-96.785313,reds&amp;zoom=13&amp;size=300x250&amp;key=ABQIAAAAXYnsz68YavJbH0LpvRCnjBSgpsEiF8ez13sWjpqbH0XE8GDjCBRJRm2_qfYRnQHyg2VF6bXHWyXWsA" alt="Map to Scott in Dallas" align=right /&gt;
+Google
+&lt;a href="http://googlemapsapi.blogspot.com/2008/02/google-maps-without-scripting.html"&gt;released&lt;/a&gt;
+their new static maps API a few days back, and it prompted me to finally
+dig into their tools a bit to see what I could accomplish. I still
+didn't get into the real API, but the static API provided a bit of
+entertainment. The &lt;a href="http://code.google.com/apis/maps/documentation/staticmaps/index.html"&gt;developer's guide&lt;/a&gt;
+answered all of my questions, and I was easily able to create the map to
+my house attached to this post. There's also a
+&lt;a href="http://gmaps-samples.googlecode.com/svn/trunk/simplewizard/makestaticmap.html"&gt;wizard&lt;/a&gt; that
+can be used if you don't want to read the docs. Also interesting: the
+real &lt;a href="http://code.google.com/apis/maps/documentation/"&gt;maps API&lt;/a&gt; and
+&lt;a href="http://code.google.com/apis/maps/documentation/mapplets/"&gt;mapplets&lt;/a&gt;.
+&lt;br clear=all&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Wed, 27 Feb 2008 10:45:00 -0600</pubDate><guid>tag:scottj.info,2008-02-27:2008/02/google-static-maps/</guid><category>Google</category></item><item><title>iPhone WebClip Bookmark Icons</title><link>https://scottj.info/oldblog/2008/01/iphone-webclip-bookmark-icons/</link><description>&lt;p&gt;After downloading firmware 1.1.3 for the iPhone today, I quickly noticed
+that Google Mobile and &lt;a href="http://mowser.com/"&gt;Mowser&lt;/a&gt;, when added to
+the home screen, displayed custom icons, and I just had to know how they did
+it. So I dug around for a bit until I figured out how it works.&lt;/p&gt;
+&lt;p&gt;From the &lt;a href="https://developer.apple.com/iphone/devcenter/designingcontent.html"&gt;iPhone Dev Center&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;To specify a bookmark icon for all pages of a web site, place a PNG
+image named "apple-touch-icon.png" at the root directory of your web
+server &amp;mdash; similar to the "favicon.ico" for site icons. To override
+the site bookmark icon on a specific web page, insert a &amp;lt;link&amp;gt;
+element similar to &amp;lt;link rel="apple-touch-icon" href="/oldblog/customIcon.png"/&amp;gt; within
+the &amp;lt;head&amp;gt; element of the page. The
+bookmark icon dimensions should be 57x57 pixels. If the icon is a
+different size it will be scaled and cropped to fit. Safari will
+automatically composite the icon with the standard "glassy" overlay
+so it looks like a built-in iPhone or iPod application.&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Tue, 15 Jan 2008 20:55:00 -0600</pubDate><guid>tag:scottj.info,2008-01-15:2008/01/iphone-webclip-bookmark-icons/</guid><category>iPhone</category><category>Mobile</category></item><item><title>Strobist Lighting 101 PDF</title><link>https://scottj.info/oldblog/2007/11/strobist-lighting-101-pdf/</link><description>&lt;h2&gt;Welcome Strobist readers!&lt;/h2&gt;
+&lt;p&gt;&lt;a href="http://strobist.blogspot.com/2006/03/lighting-101.html"&gt;Lighting 101&lt;/a&gt; is the
+foundation on which
+&lt;a href="http://strobist.blogspot.com/2006/02/welcome-to-strobist.html"&gt;Strobist&lt;/a&gt;
+is built, and is the best place to start. The &lt;a href="http://strobist.blogspot.com/2007/11/lighting-101-now-available-in-pdf.html"&gt;PDF version of the tutorials&lt;/a&gt;
+is mirrored here as a service to the Strobist community.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://scottj.info/oldblog/files/strobist-lighting101.pdf"&gt;Strobist Lighting 101 (pdf)&lt;/a&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Fri, 30 Nov 2007 15:22:00 -0600</pubDate><guid>tag:scottj.info,2007-11-30:2007/11/strobist-lighting-101-pdf/</guid><category>Photography</category></item><item><title>8125 Hacking Update</title><link>https://scottj.info/oldblog/2007/11/8125-hacking-update/</link><description>&lt;p&gt;Just a quick update on the prior &lt;a href="https://scottj.info/oldblog/2007/07/cingular-8125-hacks/"&gt;Cingular 8125 Hacks&lt;/a&gt; post. NBD 8.0
+turned out to not be the most stable ROM for my phone. I'm now running
+&lt;a href="http://forum.xda-developers.com/showthread.php?t=335178"&gt;NBD X Update 1&lt;/a&gt;. I've
+been on this ROM since it was released in October without issue.&lt;/p&gt;
+&lt;p&gt;Well, there is one minor issue that I have noticed, actually. To me,
+it's so minor that I don't really even consider it to be a problem. When
+the phone is ringing, on the original ROM, I could hit the volume down
+button to silence the ring without sending the call immediately to
+voicemail. With NBD X, the volume button has no effect when the phone is
+ringing, and I'm instead forced to just hit the ignore button if I don't
+want to take the call. For me, this is really not a big deal, especially
+considering that every other feature is rock solid.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Thu, 29 Nov 2007 15:46:00 -0600</pubDate><guid>tag:scottj.info,2007-11-29:2007/11/8125-hacking-update/</guid><category>Mobile</category></item><item><title>A quote from Barack Obama</title><link>https://scottj.info/oldblog/2007/11/a-quote-from-barack-obama/</link><description>&lt;blockquote&gt;
+&lt;p&gt;“My understanding is President Clinton’s not on the ballot.” —&lt;a href="http://thecaucus.blogs.nytimes.com/2007/11/08/president-clintons-not-on-the-ballot/index.html?ex=1352264400&amp;amp;en=8282626799dfd185&amp;amp;ei=5088&amp;amp;partner=rssnyt&amp;amp;emc=rss"&gt;Barack Obama&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Fri, 09 Nov 2007 12:36:00 -0600</pubDate><guid>tag:scottj.info,2007-11-09:2007/11/a-quote-from-barack-obama/</guid><category>Politics</category></item><item><title>Dirt Cheap Ring Light</title><link>https://scottj.info/oldblog/2007/11/dirt-cheap-ring-light/</link><description>&lt;div style="float: right; margin-left: 10px; margin-bottom: 10px;"&gt;
+ &lt;a href="http://www.flickr.com/photos/snapify/1582241882/" title="photo sharing"&gt;&lt;img src="http://farm3.static.flickr.com/2320/1582241882_510c745eb1_m.jpg" alt="diagram of ring light setup" style="border: solid 2px #000000;" /&gt;&lt;/a&gt;
+ &lt;br /&gt;
+ &lt;span style="font-size: 0.9em; margin-top: 0px;"&gt;
+  &lt;a href="http://www.flickr.com/photos/snapify/1582241882/"&gt;Ring Light Setup&lt;/a&gt;
+  &lt;br /&gt;
+  Originally uploaded by &lt;a href="http://www.flickr.com/people/snapify/"&gt;snapify&lt;/a&gt;.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;From what I have been seeing in the DIY Ring Light arena lately, it doesn't get any cheaper than this.
+&lt;br clear="all" /&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Thu, 08 Nov 2007 18:00:00 -0600</pubDate><guid>tag:scottj.info,2007-11-08:2007/11/dirt-cheap-ring-light/</guid><category>Photography</category></item><item><title>My Firefox Extensions: Year 2</title><link>https://scottj.info/oldblog/2007/10/firefox-extensions-2/</link><description>&lt;p&gt;It's been almost a year since I first posted a list of &lt;a href="https://scottj.info/oldblog/2006/11/my-firefox-extensions/"&gt;my firefox extensions&lt;/a&gt; here,
+so I figured it was time for an update. A lot has changed over the last
+year.&lt;/p&gt;
+&lt;p&gt;&lt;img usemap="#firefox-extensions2" style="border-style:none;" src="https://scottj.info/oldblog/images/firefox-extensions2.png" alt="My Firefox Extensions 2" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;map id="firefox-extensions2" name="firefox-extensions2"&gt;
+&lt;area shape="rect" alt="" coords="15,87,500,131" href="https://addons.mozilla.org/en-US/firefox/addon/1865" title="Adblock Plus" /&gt;
+&lt;area shape="rect" alt="" coords="15,132,500,205" href="https://addons.mozilla.org/en-US/firefox/addon/4866" title="Better Gmail" /&gt;
+&lt;area shape="rect" alt="" coords="15,206,500,248" href="http://del.icio.us/help/firefox/extension" title="del.icio.us" /&gt;
+&lt;area shape="rect" alt="" coords="15,249,500,292" href="http://www.clagnut.com/blog/340/" title="DOM Inspector" /&gt;
+&lt;area shape="rect" alt="" coords="15,293,500,339" href="http://www.google.com/tools/firefox/browsersync/" title="Google Browser Sync" /&gt;
+&lt;area shape="rect" alt="" coords="15,340,500,384" href="https://addons.mozilla.org/en-US/firefox/addon/748" title="Greasemonkey" /&gt;
+&lt;area shape="rect" alt="" coords="15,385,500,427" href="https://addons.mozilla.org/en-US/firefox/addon/3895" title="Personal Menu" /&gt;
+&lt;area shape="rect" alt="" coords="15,428,500,473" href="http://www.quirk.biz/download-searchstatus" title="SearchStatus" /&gt;
+&lt;area shape="rect" alt="" coords="15,474,500,517" href="https://addons.mozilla.org/en-US/firefox/addon/4072" title="Smart Bookmarks Bar" /&gt;
+&lt;area shape="rect" alt="" coords="15,518,500,557" href="https://addons.mozilla.org/en-US/firefox/addon/2108" title="Stylish" /&gt;
+&lt;area shape="rect" alt="" coords="15,558,500,608" href="https://addons.mozilla.org/firefox/125/" title="SwitchProxy Tool" /&gt;
+&lt;area shape="rect" alt="" coords="15,609,500,652" href="http://www.mozilla.org/support/firefox/faq#talkback" title="Talkback" /&gt;
+&lt;area shape="rect" alt="" coords="15,653,500,698" href="https://addons.mozilla.org/en-US/firefox/addon/60" title="Web Developer" /&gt;
+&lt;area shape="rect" alt="" coords="406,715,507,740" href="https://addons.mozilla.org/en-US/firefox/" title="Get Extensions" /&gt;
+&lt;area shape="default" nohref="nohref" alt="" /&gt;
+&lt;/map&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Fri, 19 Oct 2007 12:49:00 -0500</pubDate><guid>tag:scottj.info,2007-10-19:2007/10/firefox-extensions-2/</guid><category>Firefox</category></item><item><title>Radiohead – In Rainbows</title><link>https://scottj.info/oldblog/2007/10/radiohead-in-rainbows/</link><description>&lt;p&gt;I just bought the download version of the new Radiohead for £0.94. I
+requested the price of £0.49, but there was a £0.45 credit card
+processing fee. I'm quite pleased that Radiohead is taking the lead in
+changing the music industry's business model. I paid so little because
+I'm not really sure what I'll be getting. I searched briefly but found
+no details on the format and bitrate of the download. I can certainly
+see myself purchasing a "second copy" after I receive the first if I am
+happy with the files. I know I'll like the music—I just wish there was
+a little more detail on the data itself.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Thu, 04 Oct 2007 12:58:00 -0500</pubDate><guid>tag:scottj.info,2007-10-04:2007/10/radiohead-in-rainbows/</guid><category>Music</category></item><item><title>Another Flood</title><link>https://scottj.info/oldblog/2007/09/another-flood/</link><description>&lt;p&gt;&lt;img src="/oldblog/images/2007/09/0910_kayak390x219.jpg" alt="Anonymous Urban Kayaker" align=right /&gt;
+Glenn Skinner snapped this shot about half a
+mile from my house today. The kayaker is paddling down what is normally
+a street.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; The kayaker pictured is Dr. Joe Menge.
+&lt;br clear=all&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Mon, 10 Sep 2007 12:55:00 -0500</pubDate><guid>tag:scottj.info,2007-09-10:2007/09/another-flood/</guid><category>Dallas</category><category>Local</category><category>Weather</category></item><item><title>Insanity</title><link>https://scottj.info/oldblog/2007/08/insanity/</link><description>&lt;blockquote&gt;
+&lt;p&gt;I have moments of brilliant productivity, and long stretches of
+banging my head against the wall trying to get momentum. I am
+currently experiencing the latter and it's driving me nuts. The more
+crazy I get, the less I get done, the less I get done, the more I
+start cutting out other things that need to get done (laundry, food
+shopping, bills, etc.) in order to have more time to dedicate to the
+stuff I really want to get done... but then more times than not, I
+still don't get it done, and then have a backlog of a million things
+big and small that now are all in desperate need of getting done.  
+—&lt;a href="http://www.russellbeattie.com/blog/the-quiet-sound-of-insanity"&gt;Russell Beattie&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;That's the story of my life. I totally understand where Russ is coming
+from.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Wed, 15 Aug 2007 21:10:00 -0500</pubDate><guid>tag:scottj.info,2007-08-15:2007/08/insanity/</guid><category>Quotes</category></item><item><title>Cingular 8125 Hacks</title><link>https://scottj.info/oldblog/2007/07/cingular-8125-hacks/</link><description>&lt;p&gt;OK, so last night I got lost on the xda-developers.com forums. When I
+say lost, I really mean lost. I spent at least 3 hours poring over the
+various threads about upgrading HTC Wizards (the Cingular 8125's formal
+name). And today I have an upgraded device. Windows Mobile 6, Office
+2007, upgraded camera software, and more.&lt;/p&gt;
+&lt;p&gt;Here are some links to the upgrades that I went with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://forum.xda-developers.com/showthread.php?t=319751"&gt;NBD v8.0&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://forum.xda-developers.com/showthread.php?t=300798"&gt;IPL/SPL 3.08, Radio 2.69.11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://forum.xda-developers.com/showpost.php?p=1389177&amp;amp;postcount=218"&gt;Cingular WM6 Radio Fix2&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The following were honorable mentions that I haven't tried yet:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://forum.xda-developers.com/showthread.php?t=315178"&gt;XDA Mobile 6 Release 2a&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://forum.xda-developers.com/showthread.php?t=313611"&gt;See No Evil v2.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The forums forced me to drool over some of the 8525 (aka Hermes)
+upgrades while I was there:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://forum.xda-developers.com/showthread.php?t=319171"&gt;Sleuth's v3.0 Developer ROM&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://forum.xda-developers.com/showthread.php?t=317952"&gt;vp3G's WM6 v3.0&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There was a ton of info on &lt;a href="http://wiki.xda-developers.com/"&gt;the wiki&lt;/a&gt;, too. If you're a Windows
+Mobile fan, visit these links with caution. You might lose a day or two
+of your life to WinMo hacking.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Fri, 27 Jul 2007 17:59:00 -0500</pubDate><guid>tag:scottj.info,2007-07-27:2007/07/cingular-8125-hacks/</guid><category>Mobile</category></item><item><title>Wonderful &amp; Fair</title><link>https://scottj.info/oldblog/2007/07/wonderful-and-fair/</link><description>&lt;blockquote&gt;
+&lt;p&gt;“It's far better to buy a wonderful company at a fair price than a fair company at a wonderful price.” —&lt;a href="http://en.wikipedia.org/wiki/Warren_Buffett"&gt;Warren Buffett&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Tue, 17 Jul 2007 14:21:00 -0500</pubDate><guid>tag:scottj.info,2007-07-17:2007/07/wonderful-and-fair/</guid><category>Investing</category><category>Quotes</category></item><item><title>Throw Away Your Television</title><link>https://scottj.info/oldblog/2007/03/throw-away-your-television/</link><description>&lt;div style="float: right; margin-left: 10px; margin-bottom: 10px;"&gt;
+ &lt;a href="http://www.flickr.com/photos/m1l35/165540921/" title="photo sharing"&gt;&lt;img src="http://farm1.static.flickr.com/62/165540921_aa328810ed_m.jpg" alt="photo of Banksy art" style="border: solid 2px #000000;" /&gt;&lt;/a&gt;
+ &lt;br /&gt;
+ &lt;span style="font-size: 0.9em; margin-top: 0px;"&gt;
+  &lt;a href="http://www.flickr.com/photos/m1l35/165540921/"&gt;Banksy: Throw Away Your Television&lt;/a&gt;
+  &lt;br /&gt;
+  Originally uploaded by &lt;a href="http://www.flickr.com/people/m1l35/"&gt;m1l35&lt;/a&gt;.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I think this photo speaks for itself.  &lt;a href="http://en.wikipedia.org/wiki/Banksy"&gt;Banksy&lt;/a&gt; does it again.
+&lt;br clear=all&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Wed, 28 Mar 2007 21:55:00 -0500</pubDate><guid>tag:scottj.info,2007-03-28:2007/03/throw-away-your-television/</guid><category>Photography</category></item><item><title>Google Reader Keyboard</title><link>https://scottj.info/oldblog/2007/03/google-reader-keyboard/</link><description>&lt;div style="float: right; margin-left: 10px; margin-bottom: 10px;"&gt;
+ &lt;a href="http://www.flickr.com/photos/paolovalde/407765578/" title="photo sharing"&gt;&lt;img src="http://farm1.static.flickr.com/172/407765578_177ab1f77f_m.jpg" alt="image of Google Reader keyboard" style="border: solid 2px #000000;" /&gt;&lt;/a&gt;
+ &lt;br /&gt;
+ &lt;span style="font-size: 0.9em; margin-top: 0px;"&gt;
+  &lt;a href="http://www.flickr.com/photos/paolovalde/407765578/"&gt;Google Reader Keyboard&lt;/a&gt;
+  &lt;br /&gt;
+  Originally uploaded by &lt;a href="http://www.flickr.com/people/paolovalde/"&gt;paolovalde&lt;/a&gt;.
+ &lt;/span&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;a href="http://www.massless.org/blogger/php/2007/03/google-reader-optimized-keyboard.php"&gt;Chris&lt;/a&gt; posted this recently, and I just had to share it.  For my use, however, I'd like to see the space bar be a little taller.  ;)
+&lt;br clear=all&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Sat, 03 Mar 2007 15:34:00 -0600</pubDate><guid>tag:scottj.info,2007-03-03:2007/03/google-reader-keyboard/</guid><category>Google</category><category>Photography</category></item><item><title>Woodall Rodgers Park</title><link>https://scottj.info/oldblog/2007/02/woodall-rodgers-park/</link><description>&lt;p&gt;&lt;img src="/oldblog/images/wrparks.png" alt="image0" align=right /&gt;
+Woodall Rodgers Park will be built upon a deck that will cover
+a portion Woodall Rodgers Freeway. In the image at right, the green
+areas will be covered. Most of the infamous "concrete canyon" will
+become a tunnel. Check out the &lt;a href="http://www.wrpproject.com/swf/main.htm"&gt;Woodall Rodgers Park Foundation&lt;/a&gt; site for more
+info.
+&lt;br clear=all&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Wed, 07 Feb 2007 22:16:00 -0600</pubDate><guid>tag:scottj.info,2007-02-07:2007/02/woodall-rodgers-park/</guid><category>Dallas</category></item><item><title>High Dynamic Range Imaging</title><link>https://scottj.info/oldblog/2006/11/high-dynamic-range-imaging/</link><description>&lt;div style="float: right; margin-left: 10px; margin-bottom: 10px"&gt;&lt;table style="width:auto;"&gt;&lt;tr&gt;&lt;td&gt;&lt;a href="http://picasaweb.google.com/scott.johnson/Christmas/photo#5001672787784630290"&gt;&lt;img src="http://lh4.google.com/image/scott.johnson/RWmC5oakABI/AAAAAAAAAJc/_fx75YSZ0pU/s288/tree.jpg"&gt;&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style="font-family:arial,sans-serif; font-size:66%; text-align:right"&gt;From &lt;a href="http://picasaweb.google.com/scott.johnson/Christmas"&gt;Christmas&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;
+
+&lt;p&gt;A few days ago, I had not ever heard of &lt;a href="http://en.wikipedia.org/wiki/High_Dynamic_Range_Imaging"&gt;High Dynamic Range Imaging&lt;/a&gt;, or HDR for short.  When I saw &lt;a href="http://brad.livejournal.com/2267689.html"&gt;an example&lt;/a&gt;, I knew I had to try it out.  I first found out that the &lt;a href="http://www.openexr.com/"&gt;file format for these special images&lt;/a&gt; is wide open.  It seems that Industrial Light &amp;amp; Magic created this format and open sourced the code to work with it.  I found two &lt;a href="http://debevec.org/"&gt;excellent&lt;/a&gt; &lt;a href="http://www.anyhere.com/gward/hdrenc/hdr_encodings.html"&gt;resources&lt;/a&gt; for studying up on HDR.  And most importantly, I found &lt;a href="http://www.hdrsoft.com/index.html"&gt;Photomatix&lt;/a&gt;, which is &lt;i&gt;the&lt;/i&gt; software for creating HDR images.  I have barely scraped the surface of HDR, but I do have a &lt;a href="http://picasaweb.google.com/scott.johnson/Christmas/photo#5001672787784630290"&gt;sample image&lt;/a&gt; ready to go.  I'm seeing the potential for a lot of fun photos with HDR.  And apparently, there are a lot of great examples out on &lt;a href="http://flickr.com/photos/tags/hdr"&gt;Flickr&lt;/a&gt;.
+&lt;br clear=all&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Sun, 26 Nov 2006 06:38:00 -0600</pubDate><guid>tag:scottj.info,2006-11-26:2006/11/high-dynamic-range-imaging/</guid><category>Photography</category></item><item><title>Dallas Happenings</title><link>https://scottj.info/oldblog/2006/11/dallas-happenings/</link><description>&lt;p&gt;There has been a lot going on in Dallas lately. And much more is in
+store for the future.&lt;/p&gt;
+&lt;p&gt;DallasFood.org released &lt;a href="http://www.dallasfood.org/modules.php?name=News&amp;amp;file=article&amp;amp;sid=77"&gt;their final choices&lt;/a&gt;
+for the &lt;a href="http://www.dallasfood.org/modules.php?name=News&amp;amp;file=article&amp;amp;sid=61"&gt;Chicken Fried Steak Countdown&lt;/a&gt;
+today. The &lt;a href="http://www.faccdallas.com/EVENTS/beaujolais06.htm"&gt;Beaujolais Nouveau Festival&lt;/a&gt; is
+tonight.&lt;a href="http://en.wikipedia.org/wiki/Beaujolais_nouveau"&gt;*&lt;/a&gt;
+&lt;a href="http://www.wholefoodsmarket.com/stores/calendars/DLS.html"&gt;Whole Foods&lt;/a&gt; is
+having a tasting tomorrow, too. More wine-related events can be found at
+&lt;a href="http://www.dallaswine.com/"&gt;DallasWine.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Next week marks the opening of &lt;a href="http://www.dallasroofgardens.com/"&gt;Dallas Roof Gardens&lt;/a&gt;:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The &lt;a href="http://forum.dallasmetropolis.com/showpost.php?p=234087&amp;amp;postcount=596"&gt;top level&lt;/a&gt;
+of the downtown resto hosts a rooftop stream and dizzying (stay
+strong) views of the city. One floor below, there's the ultra-swank
+Petrus Lounge. And a quick walk down the staircase brings you into
+the main dining room, where chef David Gilbert (formerly of The
+Beverly Hilton) whips up palate-pleasing fare.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Coming up at the end of the year, &lt;a href="http://www.nashersculpturecenter.org/newyears/"&gt;New Year's Eve at the Nasher&lt;/a&gt;. Tickets
+aren't cheap, but Wolfgang Puck is making dinner.&lt;/p&gt;
+&lt;p&gt;And to make the Arts District construction a bit more bearable, I found
+some nice imagery of the &lt;a href="http://www.arcspace.com/architects/koolhaas/wyly_theater/wyly_theater.html"&gt;Dee and Charles Wyly Theater&lt;/a&gt;
+and the &lt;a href="http://www.arcspace.com/architects/foster/winspear/winspear.html"&gt;Winspear Opera House&lt;/a&gt;.
+The &lt;a href="http://www.dallasperformingarts.org/"&gt;Dallas Center for the Performing Arts Foundation&lt;/a&gt; has exciting plans
+in store for our city.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Fri, 17 Nov 2006 14:18:00 -0600</pubDate><guid>tag:scottj.info,2006-11-17:2006/11/dallas-happenings/</guid><category>Activities</category><category>Dallas</category><category>Dining</category></item><item><title>Rumsfeld and Hussein</title><link>https://scottj.info/oldblog/2006/11/rumsfeld-and-hussein/</link><description>&lt;p&gt;It seems &lt;a href="http://en.wikipedia.org/wiki/Donald_Rumsfeld"&gt;Rumsfeld&lt;/a&gt; and
+&lt;a href="http://en.wikipedia.org/wiki/Saddam_hussein"&gt;Hussein&lt;/a&gt; were buddies
+back in the day. I'm sure Rumsfeld is saddened by the &lt;a href="http://www.nytimes.com/2006/11/06/world/middleeast/06saddam.html?ex=1320469200&amp;amp;en=b84304bff2f4523e&amp;amp;ei=5090&amp;amp;partner=rssuserland&amp;amp;emc=rss"&gt;latest news about Saddam&lt;/a&gt;. [&lt;a href="http://www.andreaswacker.com/blog/2006/11/06/images/"&gt;via&lt;/a&gt;]&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Rumsfeld and Hussein Handshake" src="https://scottj.info/oldblog/images/Rumsfeld-Hussein.jpg" /&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Mon, 06 Nov 2006 13:24:00 -0600</pubDate><guid>tag:scottj.info,2006-11-06:2006/11/rumsfeld-and-hussein/</guid><category>Politics</category></item><item><title>My Firefox Extensions</title><link>https://scottj.info/oldblog/2006/11/my-firefox-extensions/</link><description>&lt;p&gt;It's an &lt;a href="http://www.google.com/search?num=100&amp;hs=ajg&amp;hl=en&amp;lr=&amp;client=firefox-a&amp;rls=org.mozilla%3Aen-US%3Aofficial&amp;q=%22my+firefox+extensions%22&amp;btnG=Search"&gt;old meme&lt;/a&gt;, and it's been done by many.  But as I was debugging my extensions after my recent upgrade to Firefox 2, I decided that I should at least document the list for myself.  So here it is:&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://scottj.info/oldblog/images/firefox-extensions.png" alt="AddOns" /&gt;&lt;/p&gt;
+&lt;p&gt;And here are the links, in alphabetical order, just like in the image above:&lt;/p&gt;
+&lt;ul&gt;&lt;li&gt;&lt;a href="http://del.icio.us/help/firefox/extension"&gt;del.icio.us&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.clagnut.com/blog/340/"&gt;DOM Inspector&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://addons.mozilla.org/firefox/26/"&gt;Download Statusbar&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://roachfiend.com/archives/2006/08/28/errorzilla-useful-error-pages-for-firefox/"&gt;ErrorZilla&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://addons.mozilla.org/firefox/433/"&gt;Flashblock&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.google.com/tools/firefox/browsersync/"&gt;Google Browser Sync&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://greasemonkey.mozdev.org/"&gt;Greasemonkey&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://platypus.mozdev.org/"&gt;Platypus&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.quirk.biz/download-searchstatus"&gt;SearchStatus&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://addons.mozilla.org/firefox/125/"&gt;SwitchProxy Tool&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="http://www.mozilla.org/support/firefox/faq#talkback"&gt;Talkback&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="https://addons.mozilla.org/firefox/1455/"&gt;Tiny Menu&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Wed, 01 Nov 2006 14:33:00 -0600</pubDate><guid>tag:scottj.info,2006-11-01:2006/11/my-firefox-extensions/</guid><category>Firefox</category></item><item><title>Michael Schumacher After Formula 1</title><link>https://scottj.info/oldblog/2006/10/michael-schumacher-after-formula-1/</link><description>&lt;p&gt;There has been a lot of chatter lately about what &lt;a href="http://en.wikipedia.org/wiki/Michael_Schumacher"&gt;Michael Schumacher&lt;/a&gt; will do
+now that he has retired from &lt;a href="http://formula1.com/"&gt;Formula 1&lt;/a&gt;
+racing. Here's one idea:&lt;/p&gt;
+&lt;p&gt;&lt;object width="425" height="350"&gt;
+   &lt;embed src="http://www.youtube.com/v/MJeA-yTHyxI" type="application/x-shockwave-flash" wmode="transparent" width="425" height="350"&gt;
+   &lt;/embed&gt;
+&lt;/object&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Fri, 27 Oct 2006 19:59:00 -0500</pubDate><guid>tag:scottj.info,2006-10-27:2006/10/michael-schumacher-after-formula-1/</guid><category>Racing</category></item><item><title>Spiral Jetty</title><link>https://scottj.info/oldblog/2006/10/spiral-jetty/</link><description>&lt;div style="float: right; margin-left: 10px; margin-bottom: 10px"&gt;&lt;a title="photo sharing" href="http://www.flickr.com/photos/whileseated/48027364/"&gt;&lt;img style="border: 2px solid #000000" src="http://static.flickr.com/30/48027364_836caa7870_m.jpg" /&gt;&lt;/a&gt;
+&lt;br&gt;
+&lt;span style="font-size: 0.9em; margin-top: 0px"&gt;
+&lt;a href="http://www.flickr.com/photos/whileseated/48027364/"&gt;Spiral Jetty (@ dawn) Desktop&lt;/a&gt;
+&lt;br&gt;
+Originally uploaded by &lt;a href="http://www.flickr.com/people/whileseated/"&gt;whileseated&lt;/a&gt;.
+&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;Flickr's &lt;a href="http://blog.flickr.com/flickrblog/2006/10/spiral_jetty.html"&gt;geotagging combined with unique geographic features&lt;/a&gt; makes for some interesting exploration. The &lt;a href="http://www.spiraljetty.org/"&gt;Spiral Jetty&lt;/a&gt; has its own website.
+&lt;br clear=all&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Wed, 25 Oct 2006 14:12:00 -0500</pubDate><guid>tag:scottj.info,2006-10-25:2006/10/spiral-jetty/</guid><category>Photography</category></item><item><title>Fall Colors</title><link>https://scottj.info/oldblog/2006/10/fall-colors/</link><description>&lt;div style="float: right; margin-left: 10px; margin-bottom: 10px"&gt;&lt;a title="photo sharing" href="http://www.flickr.com/photos/youarenottim/273364706/"&gt;&lt;img style="border: 2px solid #000000" src="http://static.flickr.com/100/273364706_8a2438ef75_m.jpg" /&gt;&lt;/a&gt;
+&lt;br&gt;
+&lt;span style="font-size: 0.9em; margin-top: 0px"&gt;
+&lt;a href="http://www.flickr.com/photos/youarenottim/273364706/"&gt;MI fall&lt;/a&gt;
+&lt;br&gt;
+Originally uploaded by &lt;a href="http://www.flickr.com/people/youarenottim/"&gt;pockett&lt;/a&gt;.
+&lt;/span&gt;&lt;/div&gt;
+
+&lt;p&gt;The &lt;a href="http://blog.flickr.com/flickrblog/2006/10/fall_colours.html"&gt;Flickr blog&lt;/a&gt; gave a nice showing of fall colors today.  I'm not seeing that type of thing around here yet, so I suppose the &lt;a href="http://www.flickr.com/groups/52240082765@N01/pool/"&gt;Flickr collection&lt;/a&gt; will have to suffice.
+&lt;br clear="all" /&gt;&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Thu, 19 Oct 2006 14:09:00 -0500</pubDate><guid>tag:scottj.info,2006-10-19:2006/10/fall-colors/</guid><category>Photography</category></item><item><title>Back Yard Burgers</title><link>https://scottj.info/oldblog/2006/09/back-yard-burgers/</link><description>&lt;p&gt;After reading &lt;a href="http://dallas.metblogs.com/archives/2006/08/back_yard_burge.phtml"&gt;the glowing review of Back Yard Burgers&lt;/a&gt;
+over at Metroblogging Dallas, I finally got around to trying out Back
+Yard Burgers last night. I'm sorry that I have to be the one to say
+this, but they really don't live up to the name. Burgers cooked in my
+back yard are juicy and never overcooked. The bacon cheddar burger I
+tried was well done and dry. The bacon was overcooked, too. I didn't
+really taste much of the cheddar, but the onions and pickles masked the
+tomato quite well. What was missing? Oh yeah, lettuce—it was so small I
+didn't even taste it. I think &lt;a href="http://www.triconglobal.com/"&gt;YUM&lt;/a&gt;
+could make a better burger. ;)&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Fri, 01 Sep 2006 01:53:00 -0500</pubDate><guid>tag:scottj.info,2006-09-01:2006/09/back-yard-burgers/</guid><category>Dallas</category><category>Dining</category></item><item><title>The Great Weigh-In</title><link>https://scottj.info/oldblog/2006/06/the-great-weigh-in/</link><description>&lt;p&gt;I'm participating in a little weight loss competition along with the
+guys from &lt;a href="http://www.nbc.com/The_Office/"&gt;the office&lt;/a&gt;. The goal is
+to lose the largest percentage of weight in 45 days. You can read more
+about the competition, along with daily updates, at &lt;a href="http://thegreatweighin.com/"&gt;our blog&lt;/a&gt;.&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Sun, 25 Jun 2006 14:35:00 -0500</pubDate><guid>tag:scottj.info,2006-06-25:2006/06/the-great-weigh-in/</guid><category>Activities</category></item><item><title>For The Record</title><link>https://scottj.info/oldblog/2006/06/for-the-record/</link><description>&lt;p&gt;The domain insane.com was all mine from 1995 through February, 2006. It
+was comforting to know that friends and past coworkers could always
+reach me at scottj@insane.com, even if my phone number or home address
+changed. That one piece of &lt;a href="https://scottj.info/oldblog/contact/"&gt;contact&lt;/a&gt;
+info was constant. Now, however, the domain has been sold, and the old
+address is gone.&lt;/p&gt;
+&lt;p&gt;One day a solution came to me: My old, expired contact info should be
+indexed by search engines so that I can be found. So if you have found
+this page via a search, please use my &lt;a href="https://scottj.info/oldblog/contact/"&gt;contact form&lt;/a&gt;.&lt;/p&gt;
+&lt;h2&gt;Expired:&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;scottj@insane.com&lt;/li&gt;
+&lt;li&gt;scottj@onramp.net&lt;/li&gt;
+&lt;li&gt;scottj@ffanet.com&lt;/li&gt;
+&lt;li&gt;scottj@vignette.com&lt;/li&gt;
+&lt;li&gt;scott.johnson@pbsg.com&lt;/li&gt;
+&lt;li&gt;scott.johnson@pepsico.com&lt;/li&gt;
+&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">scottj</dc:creator><pubDate>Wed, 14 Jun 2006 03:20:00 -0500</pubDate><guid>tag:scottj.info,2006-06-14:2006/06/for-the-record/</guid><category>Communication</category></item></channel></rss>

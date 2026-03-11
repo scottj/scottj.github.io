@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/ssjx
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://scottj.info
+  * I am ssjx (https://keybase.io/ssjx) on keybase.
+  * I have a public key ASBVMMgdcp7t8oByKF5zz7IIpCrXmTP6QbHnnsAAlakbxAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01205530c81d729eedf28072285e73cfb208a42ad79933fa41b1e79ec00095a91bc40a",
+      "host": "keybase.io",
+      "kid": "01205530c81d729eedf28072285e73cfb208a42ad79933fa41b1e79ec00095a91bc40a",
+      "uid": "4a650f63211dca613e9575d7a124c619",
+      "username": "ssjx"
+    },
+    "merkle_root": {
+      "ctime": 1574193761,
+      "hash": "10f4c967f4f52bf6a29863f8a7f871341f5c93356af0bac2e40cc892074c0b98b3f4d8792ad4ade357f90e61a08902e0e3531964ea1cf4923206a615969d1e60",
+      "hash_meta": "b7b2e3f7825241979861ccac60ead8b6e278901429cebedc908af71f006a6ac2",
+      "seqno": 10242879
+    },
+    "service": {
+      "entropy": "xlADfwykG4dMeoyniPhP5HGJ",
+      "hostname": "scottj.info",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.0.0"
+  },
+  "ctime": 1574193769,
+  "expire_in": 504576000,
+  "prev": "610f11111c65d1c18415cadf3749370b65e9e61123152bfc411a751420471a81",
+  "seqno": 30,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgVTDIHXKe7fKAcihec8+yCKQq15kz+kGx557AAJWpG8QKp3BheWxvYWTESpcCHsQgYQ8RERxl0cGEFcrfN0k3C2Xp5hEjFSv8QRp1FCBHGoHEIPOF+zv1HwYMTYc8V6s7U7jZxVvBUTAteNi2+rrk59LCAgHCo3NpZ8RAC0RUmjtkox7P0dv7qBgARO9hY90jBUlkqwSIP8cHjwx8WMpleXUGvVeQPWPse9MnMt6NMDnq5K6ViJXtRZMvB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIHiuTensYjmJt+2OvYvyokpJ7R7VbYJoMmlKWfPYJjzWo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/ssjx
+
+==================================================================

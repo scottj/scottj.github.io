@@ -1,0 +1,82 @@
+[Adblock Plus 0.7.1]
+! Version: 2
+! Title: Scott's Custom Filters for Adblock Plus
+! Homepage: http://scottj.info/
+!
+! Ad Sites
+ads.monster.com
+fluxads.com
+pokerchamps.com
+webstats4u.com
+adcasino.swf
+!
+! Torrent Sites
+http://www.audiojunkies.com/ad_images/*
+http://www.demonoid.com/sbar/*
+http://www.acetorrents.net/pic/paypal2.gif
+http://www.acetorrents.net/pic/flag/*.gif
+http://www.acetorrents.net/pic/xvid.gif
+http://www.acetorrents.net/pic/0day.gif
+http://www.acetorrents.net/pic/tv_xvid.jpg
+http://www.acetorrents.net/pic/apps.gif
+http://www.acetorrents.net/pic/mp3.jpg
+http://www.acetorrents.net/pic/iso.gif
+http://www.acetorrents.net/pic/mov_dvdr.jpg
+http://www.acid-lounge.org.uk/style/base/images/donate.gif
+http://www.bit-hdtv.com/pic/paypal.png
+http://www.bit-hdtv.com/pic/male.gif
+http://www.torrentleech.org/images/casino2.gif
+http://www.torrentleech.org/images/lucky_tl.gif
+http://www.torrentleech.org/images/joyland.gif
+!
+! The Whitelist
+@@|http://29years.com/
+@@|http://analyzingmind.com/
+@@|https://affiliate-program.amazon.com/
+@@|http://backseatjesus.com/
+@@|http://www.betteremail.com/
+@@|http://one.betteremail.com/
+@@|http://two.betteremail.com/
+@@|http://blogfodder.com/
+@@|http://store.blogfodder.com/
+@@|http://bouncinbaby.com/
+@@|http://civicleft.com/
+@@|http://empiretoolstore.com/
+@@|http://eztooldeals.com/
+@@|http://www.flickr.com/
+@@|http://full-speed.org/
+@@|http://store.full-speed.org/
+@@|http://genericsite.info/
+@@|http://juliechadwick.com/
+@@|http://juliekjohnson.com/
+@@|http://relocatefrisco.com/
+@@|http://relocateplano.com/
+@@|http://relodfw.com/
+@@|http://scottj.info/
+@@|http://scottj.textdrive.com/
+@@|http://tangibleworld.com/
+@@|http://theonlinephotographer.typepad.com/
+@@|http://virtualizationplanet.com/
+@@|https://www.google.com/analytics/
+!
+@@|https://wmaccess.wal-mart.com/
+!
+! Ad Elements
+cometdaily.com#div(class=banner468)
+cometdaily.com#div(class=banWrap)
+cometdaily.com#div(class=sidebarAds sidebarComponent)
+demonoid.com#*(user_donation_box)
+demonoid.com#table(width=700)
+demonoid.com#td(class=ending_disclaimer)
+demonoid.com#iframe(name=bnrtp)
+bit-hdtv.com#table(width=90)
+bit-hdtv.com#table(width=50%)
+torrentleech.org#a(href=donate.php)
+tvtorrents.com#div(class=right)
+tvtorrents.com#input(type=image)(src^=https://www.paypal.com/)
+reddit.com#div(class=adzerk-vote)
+reddit.com#div(class=sponsorshipbox)
+reddit.com#div(class=organic-listing)
+!
+! Fix AdSense Whitelisting by Blacklisting it Here
+http://pagead2.googlesyndication.com
