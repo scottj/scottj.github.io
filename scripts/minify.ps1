@@ -4,7 +4,6 @@ Push-Location "$PSScriptRoot/.."
 try {
     bunx html-minifier-terser `
         --collapse-boolean-attributes `
-        --collapse-inline-tag-whitespace `
         --collapse-whitespace `
         --decode-entities `
         --minify-css true `

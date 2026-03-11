@@ -3,7 +3,6 @@ set -e
 cd "$(dirname "$0")/.."
 bunx html-minifier-terser \
   --collapse-boolean-attributes \
-  --collapse-inline-tag-whitespace \
   --collapse-whitespace \
   --decode-entities \
   --minify-css true \
