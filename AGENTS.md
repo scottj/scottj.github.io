@@ -15,7 +15,7 @@ Personal website deployed to GitHub Pages.
 - **Headings**: Sentence case
 - **Inputs/textareas**: 16px font size minimum
 - **Theme**: Auto dark/light via `prefers-color-scheme` media query — no toggle button
-- **Colors**: Light (`--bg: #faf8f4`, `--text: #151513`, `--accent: #2a6b4f`) / Dark (`--bg: #1a1917`, `--text: #e8e6e1`, `--accent: #3d9e74`)
+- **Colors**: Light (`--bg: #faf8f4`, `--text: #151513`, `--accent: #2956c1`) / Dark (`--bg: #1a1917`, `--text: #e8e6e1`, `--accent: #5b9fd4`)
 
 ## Verification
 
