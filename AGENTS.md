@@ -20,5 +20,5 @@ Personal website deployed to GitHub Pages.
 ## Verification
 
 ```bash
-uvx rodney start && uvx rodney open "./index.html" && uvx rodney sleep 2 && uvx rodney screenshot screenshot.png
+bash scripts/screenshot.sh
 ```
