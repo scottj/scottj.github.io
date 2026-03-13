@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:friendly="http://scottj.info/schemas/friendly">
   <url>
     <loc>https://scottj.info/</loc>
+    <friendly:name>Home</friendly:name>
   </url>
   <url>
     <loc>https://scottj.info/oldblog/</loc>
+    <friendly:name>Old Blog</friendly:name>
   </url>
   <url>
     <loc>https://scottj.info/quotes/</loc>
+    <friendly:name>Quotes</friendly:name>
   </url>
 </urlset>
