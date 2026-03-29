@@ -5,6 +5,7 @@ Personal website deployed to GitHub Pages.
 ## Architecture
 
 - Single `index.html` file with inline CSS and JS — no build tools, no frameworks, no external dependencies (except Google Fonts)
+- `sitemap.xml` with XSLT stylesheet (`sitemap.xsl`) for browser-friendly rendering; uses a `friendly` namespace for display names
 - Deployed via GitHub Actions (`.github/workflows/deploy.yml`) using the official Pages actions
 
 ## Conventions
