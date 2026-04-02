@@ -14,4 +14,12 @@
     <loc>https://scottj.info/quotes/</loc>
     <friendly:name>Quotes</friendly:name>
   </url>
+  <url>
+    <loc>https://scottj.info/captive-portal-checks/</loc>
+    <friendly:name>Captive Portal Checks</friendly:name>
+  </url>
+  <url>
+    <loc>https://scottj.info/agent-research/</loc>
+    <friendly:name>Agent Research</friendly:name>
+  </url>
 </urlset>
