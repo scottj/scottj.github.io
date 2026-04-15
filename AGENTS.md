@@ -4,9 +4,12 @@ Personal website deployed to GitHub Pages.
 
 ## Architecture
 
-- Single `index.html` file with inline CSS and JS — no build tools, no frameworks, no external dependencies (except Google Fonts)
-- `sitemap.xml` with XSLT stylesheet (`sitemap.xsl`) for browser-friendly rendering; uses a `friendly` namespace for display names
-- Deployed via GitHub Actions (`.github/workflows/deploy.yml`) using the official Pages actions
+- `src/index.html` is the source of truth (readable, 2-space indent, inline CSS and JS, no frameworks, no external deps except Google Fonts). The root `index.html` is a minified build artifact — never edit it directly.
+- Build: `bash scripts/minify.sh` (PowerShell: `scripts/minify.ps1`) runs `bunx html-minifier-terser` on `src/index.html` and writes the root `index.html`. Requires `bun` on PATH. Regenerate before committing any `src/index.html` change.
+- `sitemap.xml` is the source of truth, with XSLT stylesheet (`sitemap.xsl`) for browser-friendly rendering and a `friendly` namespace for display names. `scripts/dumb-sitemap.sh` / `.ps1` strip it into `sitemap-dumbed-down-for-google.xml` for Google Search Console, which rejects the custom namespace. Both are referenced from `robots.txt`.
+- `oldblog/` is a static archive of the former blog — each HTML file carries a `rel=canonical`.
+- Canonical domain is `https://scottj.info/` (GitHub Pages custom domain via `CNAME`). `ads.txt` lives at the root.
+- Deployed via GitHub Actions (`.github/workflows/deploy.yml`) using the official Pages actions.
 
 ## Conventions
 
@@ -17,9 +20,11 @@ Personal website deployed to GitHub Pages.
 - **Inputs/textareas**: 16px font size minimum
 - **Theme**: Auto dark/light via `prefers-color-scheme` media query — no toggle button
 - **Colors**: Light (`--bg: #faf8f4`, `--text: #151513`, `--accent: #2956c1`) / Dark (`--bg: #1a1917`, `--text: #e8e6e1`, `--accent: #5b9fd4`)
+- **Editing**: only edit `src/index.html`; regenerate root `index.html` with the minify script before committing.
 
 ## Verification
 
 ```bash
+bash scripts/minify.sh
 bash scripts/screenshot.sh
 ```
