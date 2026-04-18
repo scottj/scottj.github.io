@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:friendly="http://scottj.info/schemas/friendly">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://scottj.info/</loc>
-    <friendly:name>Home</friendly:name>
   </url>
   <url>
     <loc>https://scottj.info/oldblog/</loc>
-    <friendly:name>Old Blog</friendly:name>
   </url>
   <url>
     <loc>https://scottj.info/quotes/</loc>
-    <friendly:name>Quotes</friendly:name>
   </url>
   <url>
     <loc>https://scottj.info/captive-portal-checks/</loc>
-    <friendly:name>Captive Portal Checks</friendly:name>
   </url>
   <url>
     <loc>https://scottj.info/agent-research/</loc>
-    <friendly:name>Agent Research</friendly:name>
   </url>
 </urlset>
