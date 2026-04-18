@@ -66,17 +66,13 @@
     <ul id="urls"></ul>
   </main>
   <script type="module">
-    const SITEMAP_NS = 'http://www.sitemaps.org/schemas/sitemap/0.9';
-    const res = await fetch('sitemap.xml');
-    const xml = new DOMParser().parseFromString(await res.text(), 'application/xml');
+    const pages = await (await fetch('sitemap.json')).json();
     const list = document.getElementById('urls');
-    for (const url of xml.getElementsByTagNameNS(SITEMAP_NS, 'url')) {
-      const loc = url.getElementsByTagNameNS(SITEMAP_NS, 'loc')[0]?.textContent?.trim();
-      if (!loc) continue;
+    for (const [title, url] of Object.entries(pages)) {
       const li = document.createElement('li');
       const a = document.createElement('a');
-      a.href = loc;
-      a.textContent = loc;
+      a.href = url;
+      a.textContent = title;
       li.appendChild(a);
       list.appendChild(li);
     }

@@ -6,7 +6,7 @@ Personal website deployed to GitHub Pages.
 
 - `src/index.html` is the source of truth (readable, 2-space indent, inline CSS and JS, no frameworks, no external deps except Google Fonts). The root `index.html` is a minified build artifact — never edit it directly.
 - Build: `bash scripts/minify.sh` (PowerShell: `scripts/minify.ps1`) runs `bunx html-minifier-terser` on `src/index.html` and writes the root `index.html`. Requires `bun` on PATH. Regenerate before committing any `src/index.html` change.
-- `sitemap.xml` is the source of truth, with XSLT stylesheet (`sitemap.xsl`) for browser-friendly rendering and a `friendly` namespace for display names. `scripts/dumb-sitemap.sh` / `.ps1` strip it into `sitemap-dumbed-down-for-google.xml` for Google Search Console, which rejects the custom namespace. Both are referenced from `robots.txt`.
+- `sitemap.json` is the source of truth — a `{ title: url }` map. `scripts/build-sitemap.sh` (PowerShell: `scripts/build-sitemap.ps1`) regenerates `sitemap.xml` from it; regenerate before committing any `sitemap.json` change. `sitemap.html` fetches `sitemap.json` directly and renders titles client-side (no XSLT).
 - `oldblog/` is a static archive of the former blog — each HTML file carries a `rel=canonical`.
 - Canonical domain is `https://scottj.info/` (GitHub Pages custom domain via `CNAME`). `ads.txt` lives at the root.
 - Deployed via GitHub Actions (`.github/workflows/deploy.yml`) using the official Pages actions.

@@ -2,4 +2,3 @@ User-agent: *
 Allow: /
 
 Sitemap: https://scottj.info/sitemap.xml
-Sitemap: https://scottj.info/sitemap-dumbed-down-for-google.xml
