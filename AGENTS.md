@@ -4,8 +4,8 @@ Personal website deployed to GitHub Pages.
 
 ## Architecture
 
-- `src/index.html` is the source of truth (readable, 2-space indent, inline CSS and JS, no frameworks, no external deps except Google Fonts). The root `index.html` is a minified build artifact — never edit it directly.
-- Build: `bash scripts/minify.sh` (PowerShell: `scripts/minify.ps1`) runs `bunx html-minifier-terser` on `src/index.html` and writes the root `index.html`. Requires `bun` on PATH. Regenerate before committing any `src/index.html` change.
+- `src/index.html` and `src/sitemap.html` are the sources of truth (readable, 2-space indent, inline CSS and JS, no frameworks, no external deps except Google Fonts). The root `index.html` and `sitemap.html` are minified build artifacts — never edit them directly.
+- Build: `bash scripts/minify.sh` (PowerShell: `scripts/minify.ps1`) runs `bunx html-minifier-terser` on each `src/*.html` and writes the root counterpart. Requires `bun` on PATH. Regenerate before committing any `src/` change.
 - `sitemap.json` is the source of truth — a `{ title: url }` map. `scripts/build-sitemap.sh` (PowerShell: `scripts/build-sitemap.ps1`) regenerates `sitemap.xml` from it; regenerate before committing any `sitemap.json` change. `sitemap.html` fetches `sitemap.json` directly and renders titles client-side (no XSLT).
 - `oldblog/` is a static archive of the former blog — each HTML file carries a `rel=canonical`.
 - Canonical domain is `https://scottj.info/` (GitHub Pages custom domain via `CNAME`). `ads.txt` lives at the root.
