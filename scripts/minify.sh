@@ -8,7 +8,7 @@ minify() {
     --collapse-whitespace \
     --decode-entities \
     --minify-css true \
-    --minify-js true \
+    --minify-js '{"module":true}' \
     --remove-attribute-quotes \
     --remove-comments \
     --remove-empty-attributes \
