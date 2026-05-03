@@ -5,9 +5,9 @@ Personal website deployed to GitHub Pages.
 ## Architecture
 
 - `src/index.html` and `src/sitemap.html` are the sources of truth (readable, 2-space indent, inline CSS and JS, no frameworks, no external deps except Google Fonts). The root `index.html` and `sitemap.html` are minified build artifacts — never edit them directly.
-- Build: `bash scripts/build.sh` (PowerShell: `scripts/build.ps1`) runs the full build pipeline — updates `sitemap.json` from GitHub, regenerates `sitemap.xml`, then minifies all `src/*.html` into root counterparts. Requires `bun` and `uv` on PATH. Run before committing any source change.
-- `sitemap.json` is the source of truth — a `{ title: url }` map. `scripts/create-xml-sitemap.sh` (PowerShell: `scripts/create-xml-sitemap.ps1`) regenerates `sitemap.xml` from it; regenerate before committing any `sitemap.json` change. `sitemap.html` fetches `sitemap.json` directly and renders titles client-side (no XSLT).
-- `scripts/update-sitemap.py` queries the GitHub API for public repos belonging to `scottj` and appends any repo homepage URLs on the `scottj.info` domain that are missing from `sitemap.json`. Run with `uv run scripts/update-sitemap.py` (no dependencies beyond the stdlib). After running, regenerate `sitemap.xml` with the create-xml-sitemap script before committing.
+- Build: `uv run scripts/build.sh` (PowerShell: `uv run scripts/build.ps1`) runs the full build pipeline — updates `sitemap.json` from GitHub, regenerates `sitemap.xml`, then minifies all `src/*.html` into root counterparts. Requires `bun` and `uv` on PATH. Run before committing any source change.
+- `sitemap.json` is the source of truth — a `{ title: url }` map. `scripts/create-xml-sitemap.py` regenerates `sitemap.xml` from it; run with `uv run scripts/create-xml-sitemap.py` before committing any `sitemap.json` change. `sitemap.html` fetches `sitemap.json` directly and renders titles client-side (no XSLT).
+- `scripts/update-sitemap.py` queries the GitHub API for public repos belonging to `scottj` and appends any repo homepage URLs on the `scottj.info` domain that are missing from `sitemap.json`. Run with `uv run scripts/update-sitemap.py` (no dependencies beyond the stdlib). After running, regenerate `sitemap.xml` with `uv run scripts/create-xml-sitemap.py` before committing.
 - `oldblog/` is a static archive of the former blog — each HTML file carries a `rel=canonical`.
 - Canonical domain is `https://scottj.info/` (GitHub Pages custom domain via `CNAME`). `ads.txt` lives at the root.
 - Deployed via GitHub Actions (`.github/workflows/deploy.yml`) using the official Pages actions.
@@ -26,6 +26,6 @@ Personal website deployed to GitHub Pages.
 ## Verification
 
 ```bash
-bash scripts/minify.sh
-bash scripts/screenshot.sh
+uv run scripts/minify.py
+uv run scripts/screenshot.py
 ```
