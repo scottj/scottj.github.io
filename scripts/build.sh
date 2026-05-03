@@ -3,5 +3,5 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 
 uv run scripts/update-sitemap.py
-bash scripts/create-xml-sitemap.sh
-bash scripts/minify.sh
+uv run scripts/create-xml-sitemap.py
+uv run scripts/minify.py
