@@ -88,15 +88,15 @@
     font-size: 0.95rem;
     margin: 0 0 4px;
     color: var(--text);
-  }
 
-  .role a {
-    color: var(--accent);
-    text-decoration: none;
-  }
+    & a {
+      color: var(--accent);
+      text-decoration: none;
 
-  .role a:hover {
-    text-decoration: underline;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 
   .location {
@@ -138,23 +138,22 @@
     color: var(--text);
     text-decoration: none;
     transition: border-color 0.2s, background 0.2s;
+
+    &:hover {
+      border-color: var(--accent);
+      background: color-mix(in srgb, var(--accent) 10%, var(--card));
+    }
   }
 
   .social-link {
     width: 40px;
     height: 40px;
-  }
 
-  .social-link:hover,
-  .contact-pill:hover {
-    border-color: var(--accent);
-    background: color-mix(in srgb, var(--accent) 10%, var(--card));
-  }
-
-  .social-link svg {
-    width: 18px;
-    height: 18px;
-    fill: currentColor;
+    & svg {
+      width: 18px;
+      height: 18px;
+      fill: currentColor;
+    }
   }
 
   .contact-pill {
