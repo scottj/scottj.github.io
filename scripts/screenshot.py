@@ -3,7 +3,6 @@
 # dependencies = []
 # ///
 import subprocess
-import sys
 from pathlib import Path
 
 root = Path(__file__).parent.parent
@@ -12,9 +11,7 @@ LIGHT_CSS = ':root{--bg:#faf8f4!important;--text:#151513!important;--accent:#295
 DARK_CSS = ':root{--bg:#1a1917!important;--text:#e8e6e1!important;--accent:#5b9fd4!important;--border:#2e2d29!important;--card:#232220!important}'
 
 def rodney(*args: str) -> None:
-    result = subprocess.run(["uvx", "rodney", *args], cwd=root)
-    if result.returncode != 0:
-        sys.exit(result.returncode)
+    subprocess.run(["uvx", "rodney", *args], cwd=root, check=True)
 
 def inject_theme(css: str) -> None:
     js = f"(()=>{{var e=document.getElementById('theme-override'); if(e)e.remove(); var s=document.createElement('style'); s.id='theme-override'; s.textContent='{css}'; document.head.appendChild(s); return 'ok'}})()"
