@@ -12,11 +12,11 @@ from pathlib import Path
 import re
 import sys
 
-BEACON = (
-    "<script defer src='https://static.cloudflareinsights.com/beacon.min.js' "
-    "data-cf-beacon='{\"token\": \"afb08e5a4f494fe78662f8696341892e\"}'></script>"
-)
 TOKEN_MARKER = "afb08e5a4f494fe78662f8696341892e"
+BEACON = (
+    f"<script defer src='https://static.cloudflareinsights.com/beacon.min.js' "
+    f"data-cf-beacon='{{\"token\": \"{TOKEN_MARKER}\"}}'></script>"
+)
 
 SKIP = {
     Path("index.html"),
