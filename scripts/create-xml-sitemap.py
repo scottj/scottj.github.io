@@ -17,3 +17,4 @@ for url in pages.values():
     lines += ["  <url>", f"    <loc>{escape(url)}</loc>", "  </url>"]
 lines += ["</urlset>", ""]
 (root / "sitemap.xml").write_text("\n".join(lines), encoding="utf-8")
+print(f"sitemap.xml written with {len(pages)} URLs.")

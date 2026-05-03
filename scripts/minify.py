@@ -35,6 +35,7 @@ def minify(src: str, out: str) -> None:
     )
     if result.returncode != 0:
         sys.exit(result.returncode)
+    print(f"minified {src} -> {out}")
 
 minify("src/index.html", "index.html")
 minify("src/sitemap.html", "sitemap.html")
